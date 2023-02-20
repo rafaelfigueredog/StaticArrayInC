@@ -17,8 +17,5 @@ int main() {
   printf("Array: [%d, %d, %d]\n", get(&arr, 0), get(&arr, 1),
          get(&arr, 2));
 
-  printf("Array Size: %d\n", getSize(&arr)); 
-
-
   return 0;
 }

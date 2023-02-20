@@ -21,7 +21,3 @@ void set(Array *arr, int index, int value) {
     arr->elements[index] = value;
   }
 }
-
-int getSize(const Array* arr) {
-    return arr->size;
-}
